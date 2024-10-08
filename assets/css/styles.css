@@ -1,0 +1,494 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000008;
+}
+
+header {
+    background: #000008;
+    padding: 1px;
+}
+
+.logo {
+    width: 195px;
+    margin-left: 50px;
+}
+
+.fundo {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: #000008;
+}
+
+.caixa-Geral {
+    text-align: left;
+    margin-left: 3.5%;
+}
+
+.caixa-Geral li {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: #000008;
+}
+
+.centered-text {
+    position: absolute;
+    font-size: 45px;
+    width: 800px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-imagem {
+    position: absolute;
+    width: 255px;
+    top: 50%;
+    left: 25%;
+    transform: translate(45%, -54%);
+    display: flex;
+    justify-content: center;
+}
+
+.descricaoInicio {
+    font-size: 14px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caixaInicio {
+    position: relative;
+    text-align: right;
+    color: #dddddd;
+}
+
+.contered-text-myself {
+    position: absolute;
+    font-size: 45px;
+    width: 800px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.myself {
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 36px;
+    right: 5px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: #5ec5cc;
+    text-decoration: underline;
+}
+
+.input-padrao {
+    text-align: center;
+    display: inline;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+.saiba-mais {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 18%;
+    padding: 15px 0;
+    background: #000008;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.saiba-mais:hover {
+    background-color: #0d17a8;
+    transform: scale(1.06);
+}
+
+/* Parte do mural de artes */
+.desenho-1 {
+    margin-left: 140px;
+}
+
+.texto-desenho1 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 53%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-demas {
+    position: relative;
+    margin-left: 230px;
+    top: -85px;
+}
+
+.imagem-acordesCosmico {
+    position: relative;
+    margin-left: 845px;
+    top: 45px;
+}
+
+.titulo-acordesCosmicos {
+    position: relative;
+    margin-left: 180px;
+    top: -295px;
+}
+
+.texto-desenho2 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 780px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-aDeriva {
+    position: relative;
+    margin-left: 140px;
+    top: -75px;
+}
+
+.titulo-aDeriva {
+    position: relative;
+    margin-left: 80px;
+    top: -215px;
+}
+
+.texto-desenho3 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 1164px;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-abc {
+    position: relative;
+    margin-left: 850px;
+    top: -25px;
+}
+
+.titulo-abc {
+    position: relative;
+    margin-left: 180px;
+    top: -365px;
+}
+
+.texto-desenho4 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 1565px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-reflexoSerenidade {
+    position: relative;
+    margin-left: 140px;
+    top: -160px;
+}
+
+.titulo-reflexoSerenidade {
+    position: relative;
+    margin-left: 130px;
+    top: -300px;
+}
+
+.texto-desenho5 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 1915px;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-barcoNoSeuMar {
+    position: relative;
+    margin-left: 850px;
+    top: -90px;
+}
+
+.titulo-barcoNoSeuMar {
+    position: relative;
+    margin-left: 180px;
+    top: -435px;
+}
+
+.texto-desenho6 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 2350px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-olharQueNaoVemos {
+    position: relative;
+    margin-left: 140px;
+    top: -240px;
+}
+
+.titulo-olharQueNaoVemos {
+    position: relative;
+    margin-left: 65px;
+    top: -445px;
+}
+
+.texto-desenho7 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 2755px;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-socrates {
+    position: relative;
+    margin-left: 840px;
+    top: -185px;
+}
+
+.titulo-socrates {
+    position: relative;
+    margin-left: 235px;
+    top: -535px;
+}
+
+.texto-desenho8 {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 650px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 3150px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.text-projetos {
+    position: absolute;
+    font-size: 45px;
+    width: 800px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    top: 19%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.descricao {
+    position: absolute;
+    text-align: justify;
+    font-size: 16.3px;
+    width: 950px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bhaskara-calculadora {
+    margin-left: 165px;
+    margin-top: 240px;
+}
+
+.calcular-bhaskara {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 14%;
+    padding: 10px 0;
+    background: #5E05C6;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s all;
+    position: 50px;
+    margin: 60px;
+    margin-top: 15px;
+}
+
+.calcular-bhaskara:hover {
+    background-color: #0182FE;
+    transform: scale(1.06);
+    
+}
+
+.soma-calculadora {
+    margin-left: 540px;
+    margin-top: -527px;
+}
+
+.calcular-soma {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20%;
+    padding: 10px 0;
+    background: #5E05C6;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s all;
+    position: 50px;
+    margin: 65px;
+    margin-top: 15px;
+}
+
+.calcular-soma:hover {
+    background-color: #0182FE;
+    transform: scale(1.06);
+    
+}
+
+.imc-calculadora {
+    margin-left: 910px;
+    margin-top: -534px;
+}
+
+.calcular-imc {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 36%;
+    padding: 10px 0;
+    background: #5E05C6;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s all;
+    position: 50px;
+    margin: 65px;
+    margin-top: 15px;
+}
+
+.calcular-imc:hover {
+    background-color: #0182FE;
+    transform: scale(1.06);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Parte do rodapé que contém a imagem de fundo*/
+/* footer {
+    position: relative;
+    top: -400px;
+    width: 1300px;
+}
+
+.footer-background {
+    /* Caminho da imagem */
+/* background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ajusta a altura ao conteúdo */

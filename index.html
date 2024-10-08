@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<!-- É DE EXTREMA IMPORTANCIA COLOCAR ISSO:
+ pois só assim irá aparecer os visuais da web-->
+<head>
+    <title>Portfólio Priscila</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+    <body>
+
+        <!--Serve como o menu das telas, que ao clicar redireciona para outra aba-->
+        <header>
+            <div class="caixa-Geral">
+                
+                <img class = "logo" src = "assets/img-pagina1/logo.png" width="100" onclick="window.location.href = 'index.html'">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="projetos.html">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="artes.html">Mural de Artes</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--foi criado uma classe chamada CONTAINER, que é como se fosse uma "caixa".
+        Foi criada uma imagem com classe chamada fundo, o "link" da imagem, etc.
+        Há também uma classe chamada CENTERED-TEXT, que serve para o texto sobrepor a imagem 
+        (sendo possivel fazer alterações no mesmo) -->
+        <div class="container">
+            <img class="fundo" src="assets/img-pagina1/fundoWeb.png" alt="Imagem de fundo" style="width: 100%;">
+            <div class="centered-text">
+                <br>
+                <br>
+                Olá <br>
+                Me chamo <strong></strong>
+                <font color="cyan"> Priscila</font>,</strong> <br>
+                Desenvolvedora Web <br>
+                <p class="descricaoInicio">  Apaixonada pelo design gráfico e pelo
+                    desenvolvimento de web. Busco transformar ideias em artes que cativam e inspiram!
+                </p>
+                
+                <a href="projetos.html"></ahref>
+                <input class="saiba-mais" type="button" value=" SAIBA MAIS ">
+                </a>  <!--um botão de saiba mais na inicial-->
+        
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,214 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000008;
+}
+
+header {
+    background: #000008;
+    padding: 1px;
+}
+
+.logo {
+    width: 195px;
+    margin-left: 50px;
+}
+
+.fundo {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: #000008;
+}
+
+.caixa-Geral {
+    text-align: left;
+    margin-left: 3.5%;
+}
+
+.caixa-Geral li {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: #ffffff;
+}
+
+.centered-text {
+    position: absolute;
+    font-size: 45px;
+    width: 800px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-imagem {
+    position: absolute;
+    width: 255px;
+    top: 50%;
+    left: 25%;
+    transform: translate(45%, -54%);
+    display: flex;
+    justify-content: center;
+}
+
+.descricaoInicio {
+    font-size: 14px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caixaInicio {
+    position: relative;
+    text-align: right;
+    color: #dddddd;
+}
+
+.contered-text-myself {
+    position: absolute;
+    font-size: 45px;
+    width: 800px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+nav {
+    position: absolute;
+    top: 36px;
+    right: 5px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: #5ec5cc;
+    text-decoration: underline;
+}
+.myself {
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#fotoENome {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#fotoENome img {
+    width: 7em;
+}
+
+#fotoENome h3 {
+    color: white;
+    font-size: 2em;
+
+}
+
+#hub {
+    display: flex;
+    gap: 1.5em;
+}
+
+
+#hub a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+form {
+    max-width: 60em;
+    padding: 0.9em;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7em;
+    margin: auto;
+    justify-content: center;
+    max-width: 40em;
+    /* Aumentei o tamanho máximo do formulário */
+    gap: 1.5em;
+    /* Espaçamento entre os campos */
+}
+
+.field-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    /* Espaço entre label e input */
+}
+
+label {
+    text-align: left;
+    font-size: 1.1em;
+    min-width: 3em;
+    /* Define um mínimo para a largura da label */
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    /* O input agora ocupa toda a largura restante */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Garante que o padding não quebre o layout */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    margin-left: 60em;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 8em;
+    padding: 1.5em;
+    background-color: rgba(41, 5, 138, 0.99);
+    color: white;
+}
+
